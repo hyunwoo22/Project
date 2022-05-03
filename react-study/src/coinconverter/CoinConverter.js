@@ -32,7 +32,6 @@ function Select({coinArr}){
         let changeShow = false;
         if(selValue){
             setSearchWrap(selValue);
-            console.log('selValue ?', selValue)
             coinArr.map((item) => {
                 if(selValue === item.name){
                     setCoinWrap(item);
@@ -156,7 +155,7 @@ function CoinConverter(){
                 setCoinArr(json);
             })
     }, [])
-
+    
     return(
         <div>
             <h1>Coin Converter</h1>

@@ -18,8 +18,6 @@ function Todo(){
         e.preventDefault();
         setTodoArr([]);
     }
-    
-    console.log('todoArr ?', todoArr);
     return(
         <div>
             <h1>ToDo List</h1>
