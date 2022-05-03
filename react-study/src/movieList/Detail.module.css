@@ -1,0 +1,8 @@
+.movieWrap{
+    background-color: #000;
+}
+
+.movieWrap h2, .movieWrap p, .movieWrap p a{
+    color: #fff;
+    text-decoration: none;
+}

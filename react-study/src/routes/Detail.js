@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import { Link } from "react-router-dom";
+import styles from '../movieList/Detail.module.css';
 
 function Detail(){
     const {id} = useParams();
+    console.log('{id} ?', {id})
     const [oneMovie, setOneMovie] = useState([]);
     const getMovie = async() => {
         const json = await(
@@ -14,11 +16,12 @@ function Detail(){
     useEffect(()=>{
         getMovie();
     },[])
+
     console.log('oneMovie??', oneMovie)
     return (
-        <div>
-            <p>
-                <Link to='/'>Back</Link>
+        <div className={styles.movieWrap}>
+            <p> 
+                <Link to='/'>Home</Link>
             </p>
             <h2>{oneMovie.title}</h2>
             <img src={oneMovie.medium_cover_image} />
