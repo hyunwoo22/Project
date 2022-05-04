@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.82721525.css","mappings":"AAAA,yBACI,qBACJ,CAEA,oFACI,UAAW,CACX,oBACJ","sources":["movieList/Detail.module.css"],"sourcesContent":[".movieWrap{\r\n    background-color: #000;\r\n}\r\n\r\n.movieWrap h2, .movieWrap p, .movieWrap p a{\r\n    color: #fff;\r\n    text-decoration: none;\r\n}"],"names":[],"sourceRoot":""}
