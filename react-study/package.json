@@ -1,5 +1,6 @@
 {
-  "name": "coinconverter",
+  "homepage":"https://hyunwoo22.github.io/Project",
+  "name": "react-study",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -39,6 +40,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "homepage":"https://hyunwoo22.github.io/Project"
+  }  
 }
