@@ -78,4 +78,16 @@ export const BigImg = styled.img`
   }
 `;
 
+export const Wrap2 = styled.div`
+  margin-top: 10px;
+`;
+
+export const BigDiv = styled.div`
+  border: 1px solid #111;
+  padding: 10px;
+  margin-top: 10px;
+`;
+
+export const Input = styled.input``;
+
 export const Button = styled.button``;
