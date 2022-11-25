@@ -67,7 +67,7 @@ const Emoticon = () => {
       let emogiSrc = e.target.getAttribute("data-target");
       emogiList.map((item) => {
         if (item.emogiCode === emogiSrc) {
-          setEmogiCodeData(item.emogiCode);
+          // setEmogiCodeData(item.emogiCode);
           console.log("emogiCodeData?", emogiCodeData);
           pasteHtmlAtCaret(
             `<img src=${item.emogiUrl} data-target=${item.emogiCode}/>`
